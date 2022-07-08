@@ -1,6 +1,6 @@
 $.ajax({
     type: 'get',
-    url: 'http://api.covid19api.com/summary',
+    url: 'https://api.covid19api.com/summary',
     success: function(response) {
         console.log(response.Countries)
         for(var i = 0; i < response.Countries.length; i++){
